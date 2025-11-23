@@ -1,9 +1,14 @@
 package org.example;
 
-public class Dish {
-  public String description;
 
-  Dish(String description) {
-    this.description = description;
-  }
+public class Dish {
+    private String description;
+
+    public Dish(String description) {
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 }
